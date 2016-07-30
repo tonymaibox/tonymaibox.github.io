@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Tony Mai is a self-taught, driven, and passionate thinker. And it's highly strange and extremely awkward to talk about myself in the third-person. I never know what to put in these "about" sections. How do we manage our audience or readers' perceptions about us? Taming confidence comes at the risk of overlooking talent. Shading our doubt and flaws might shadow our humility. I guess that's the best thing I can tell you about myself: I like to think, a lot.
+
+Welcome to meta-CODE-nition, where I get to share my musings about software code and a plethora of topics that may pique my interests. Thank you and enjoy!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Formerly a NYC public school educator and staff supporter, I'm taking a journey with computer code. First up, Flatiron School. Then, the world.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[tony@metaCODEnition.com](mailto:tony@metaCODEnition.com)
