@@ -65,3 +65,5 @@ thought1 = Thought.new("hello world", "I guess this is my first post.", 2016-07-
 
 Over the course of my coding journeys, I hope I can return to this class and re-define, re-factor, and re-vise it. Maybe, this will also serve as a re-minder of who and what I am: forever a learner, a student.
 
+Please comment below or anywhere and help me grow as a learner. Thanks!
+
