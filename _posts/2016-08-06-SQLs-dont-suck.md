@@ -29,7 +29,7 @@ Before we employ this mantra, let's talk about the four functions of data. A use
 
 ### **Creating** a table is straightfoward and formulaic:
 
-```SQL
+``` SQL
 CREATE TABLE members (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
