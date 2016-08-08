@@ -27,7 +27,7 @@ Before we employ this mantra, let's talk about the four functions of data. A use
 
 ### **Creating** a table is straightfoward and formulaic:
 
-```SQL
+{% highlight SQL %}
 CREATE TABLE members (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
@@ -35,7 +35,7 @@ CREATE TABLE members (
     date DATE,
     lifemotto VARCHAR(max)
     );
-```
+{& endhighlight %}
 
 |id     |name   |age    |date   |lifemotto  |
 |---    |---    |---    |---    |---        |
