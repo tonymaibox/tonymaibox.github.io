@@ -29,7 +29,7 @@ Before we employ this mantra, let's talk about the four functions of data. A use
 
 ### **Creating** a table is straightfoward and formulaic:
 
-``` SQL
+```sql
 CREATE TABLE members (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
@@ -55,7 +55,7 @@ I revisit my life approach here:
 2. **_Where/How do I get it?_**
 3. **_Any other details?_**
 
-```SQL
+```sql
 SELECT *
 FROM members
 WHERE id = 1
@@ -109,7 +109,7 @@ There's more advanced *JOIN* options for tables. For instance, my *JOIN* was an 
 
 Let's follow the theme of setting goals here.
 
-```SQL
+```sql
 INSERT INTO members
 (name, age, date, lifemotto)
 VALUES
@@ -135,7 +135,7 @@ Guide list:
 
 Oops, I made a mistake in my age. Let's update my row:
 
-```SQL
+```sql
 UPDATE members
 SET age = 60
 WHERE name = "Me"
