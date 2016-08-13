@@ -7,9 +7,7 @@ Not Structured Query Language (SQL), anyway.
 
 For this post, I'll be writing about SQL, it's uses with data/databases, and why/how it doesn't have to be so darn challenging.
 
-<center>
 ![alt text](http://s2.quickmeme.com/img/a9/a90ec1f2a5df27387083d2f097ae4e18858a2de97761f6b15b688551a480ded9.jpg)
-</center>
 
 I'm in the camp that favors or enjoys SQL. I understand SQL is a rather strict and unforgiving language compared to Ruby. But, Ruby was built with the user in mind. Yet, that's not to say SQL isn't, either. After all, the langauge is meant to "speak" to data, specifically databases.
 
