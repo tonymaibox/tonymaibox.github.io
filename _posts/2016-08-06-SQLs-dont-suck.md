@@ -76,7 +76,7 @@ In the first line, as all SQL queries begin, I start with the *SELECT* command. 
 
 Let's query two tables!
 
-```SQL
+```sql
 SELECT name, lifemotto
 FROM members
 JOIN partygoers
@@ -156,7 +156,7 @@ Guide list:
 
 ### **Deleting** a table doesn't need a plan:
 
-```SQL
+```sql
 DROP TABLE members
 ```
 
