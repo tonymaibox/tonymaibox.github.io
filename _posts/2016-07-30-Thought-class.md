@@ -1,5 +1,5 @@
 ---
-layout: dark-post
+layout: post
 title: thought1 = Thought.new
 ---
 
