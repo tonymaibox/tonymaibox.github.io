@@ -56,7 +56,7 @@ I revisit my life approach here:
 ```sql
 SELECT *
 FROM members
-WHERE id = 1
+WHERE id = 1;
 ```
 
 Return will be:
@@ -80,7 +80,7 @@ Let's query two tables!
 SELECT name, lifemotto
 FROM members
 JOIN partygoers
-ON members.age = partygoers.age
+ON members.age = partygoers.age;
 ```
 
 Return will be:
@@ -111,7 +111,7 @@ Let's follow the theme of setting goals here.
 INSERT INTO members
 (name, age, date, lifemotto)
 VALUES
-("John", 71, "August 6, 2016", "I'm gonna pop some tags.")
+("John", 71, "August 6, 2016", "I'm gonna pop some tags.");
 ```
 
 Return will be:
@@ -136,7 +136,7 @@ Oops, I made a mistake in my age. Let's update my row:
 ```sql
 UPDATE members
 SET age = 60
-WHERE name = "Me"
+WHERE name = "Me";
 ```
 
 Return will be:
@@ -157,7 +157,7 @@ Guide list:
 ### **Deleting** a table doesn't need a plan:
 
 ```sql
-DROP TABLE members
+DROP TABLE members;
 ```
 
 Just like dropping a goal, deleting or dropping a whole table won't require or life-goals guidelines checklint. If you need a plan to drop a goal, then you don't have a goal. You have a problem.
