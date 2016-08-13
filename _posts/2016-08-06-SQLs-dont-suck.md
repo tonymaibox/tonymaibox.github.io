@@ -10,7 +10,7 @@ For this post, I'll be writing about SQL, it's uses with data/databases, and why
 <div style="text-align:center" markdown="1">
 ![data](http://s2.quickmeme.com/img/a9/a90ec1f2a5df27387083d2f097ae4e18858a2de97761f6b15b688551a480ded9.jpg)
 </div>
-
+<br>
 I'm in the camp that favors or enjoys SQL. I understand SQL is a rather strict and unforgiving language compared to Ruby. But, Ruby was built with the user in mind. Yet, that's not to say SQL isn't, either. After all, the langauge is meant to "speak" to data, specifically databases.
 
 SQL is written for and operates on Relational DataBase Management Systems ([RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)). The idea is to present data to the user as relations; a collection of tables with rows and columns. This is key to thinking about and querying via SQL: think tables or grids. The user is looking for rows, columns, or pinpoints of data. The use of this data will be up to the user. SQL doesn't analyze the data, users do. SQL is just a language to access the desired data.
