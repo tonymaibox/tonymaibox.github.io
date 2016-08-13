@@ -37,10 +37,10 @@ CREATE TABLE members (
     );
 ```
 
-|id     |name   |age    |date   |lifemotto  |
-|---    |---    |---    |---    |---        |
+|id     |name   |age    |date           |lifemotto  |
+|-------|-------|-------|---------------|-----------|
 |1      |Me     |70     |August 6, 2016 |Be happy.  |
-|2      |You    |70     |August 6, 2016 |I'm Happy.  |
+|2      |You    |70     |August 6, 2016 |I'm Happy. |
 
 In the above code, the "members" table is named and created, opened by open parenthesis "(" followed by the name of columns to be created, and the types of data to be inputed per row in that column. The "Primary Key" makes the id column unique and manageable when it comes to duplicates. Sometimes, the table intentionally holds duplicates, its the PRIMARY KEY that helps differentiate the instances of duplicates - perhaps, which came first in this case as the AUTOINCREMENT command increments the id number of any and all additions to the table. Next, name is inputed with a text string, meaning you using quotations marks when adding to the table (e.g. "John", "Jane", etc.). Age is an integer or number. The date will appear in month, day, year format. "Lifemotto" has a VARCHAR(max) input field which limits the user _up to_ 231 characters. VARCHAR means variable-length characters, so up to a certain size. Using CHAR would mean, the column can only have _exactly_ a set amount of characters set with a number inside parenthesis: CHAR(20).
 
@@ -61,8 +61,8 @@ WHERE id = 1
 
 Return will be:
 
-|id     |name   |age    |date   |lifemotto  |
-|---    |---    |---    |---    |---        |
+|id     |name   |age    |date           |lifemotto  |
+|-------|-------|-------|---------------|-----------|
 |1      |Me     |70     |August 6, 2016 |Be happy.  |
 
 In the first line, as all SQL queries begin, I start with the *SELECT* command. The * means all. I'm looking for ALL columns. I'm looking in the *members* table as oppose to any other tables I might have. Specifically, I'm looking for data that includes the id of 1. The *WHERE* command sets a very specific detail for the search and return data.
@@ -86,7 +86,7 @@ ON members.age = partygoers.age
 Return will be:
 
 |name   |lifemotto  |
-|---    |---        |
+|-------|-----------|
 |Me     |Be happy.  |
 |Jane   |YOLO!      |
 
@@ -116,11 +116,11 @@ VALUES
 
 Return will be:
 
-|id     |name   |age    |date   |lifemotto  |
-|---    |---    |---    |---    |---        |
-|1      |Me     |70     |August 6, 2016 |Be happy.  |
-|2      |You    |70     |August 6, 2016 |I'm Happy.  |
-|3      |John   |71     |August 6, 2016 |I'm gonna pop some tags.  |
+|id     |name   |age    |date           |lifemotto                |
+|-------|-------|--- ---|---------------|-------------------------|
+|1      |Me     |70     |August 6, 2016 |Be happy.                |
+|2      |You    |70     |August 6, 2016 |I'm Happy.               |
+|3      |John   |71     |August 6, 2016 |I'm gonna pop some tags. |
 
 Guide list:
 
@@ -141,8 +141,8 @@ WHERE name = "Me"
 
 Return will be:
 
-|id     |name   |age    |date   |lifemotto  |
-|---    |---    |---    |---    |---        |
+|id     |name   |age    |date           |lifemotto  |
+|-------|-------|-------|---------------|-----------|
 |1      |Me     |60     |August 6, 2016 |Be happy.  |
 
 Guide list:
