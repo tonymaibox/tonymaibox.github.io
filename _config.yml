@@ -145,15 +145,15 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://facebook.com/tony.mai.969"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/tonymaibox"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/tonymaibox"
   - title: "rss"
     url: "/feed.xml"
+  - title: "linkedin"
+  - url: "https://linkedin.com/tonymaibox"
 
 ############
 # 404 page #
