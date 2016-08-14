@@ -27,7 +27,8 @@ Before we employ this mantra, let's talk about the four functions of data. A use
 
 ### **Creating** a table is straightfoward and formulaic:
 
-```sql
+<pre><code data-trim class="sql">
+{% sql %}
 CREATE TABLE members (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
@@ -35,7 +36,8 @@ CREATE TABLE members (
     date DATE,
     lifemotto VARCHAR(max)
     );
-```
+{% endsql %}
+</code></pre>
 
 |id     |name   |age    |date           |lifemotto  |
 |-------|-------|-------|---------------|-----------|
