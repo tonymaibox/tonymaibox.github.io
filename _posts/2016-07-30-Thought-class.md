@@ -5,7 +5,7 @@ title: thought1 = Thought.new
 
 Bear with me as I create or code a thought.
 
-```ruby
+<pre><code data-trim class="ruby">
 class Thought
 
 @@owner = "Tony"
@@ -26,8 +26,7 @@ end
 
 thought1 = Thought.new("hello world", "I guess this is my first post.", 2016-07-30)
 
-
-```
+</code></pre>
 
 That is a thought. Well, according to me and my newfound knowledge of Ruby Classes, the above snippet is the Thought Class, of which I can use to create a thought, an instance, an object.
 
