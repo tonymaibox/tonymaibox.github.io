@@ -153,7 +153,7 @@ social:
   - title: "rss"
     url: "/feed.xml"
   - title: "linkedin"
-  - url: "https://linkedin.com/tonymaibox"
+    url: "https://linkedin.com/tonymaibox"
 
 ############
 # 404 page #
@@ -178,7 +178,7 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  # Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
