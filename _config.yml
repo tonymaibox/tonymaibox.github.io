@@ -165,9 +165,9 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: tonymaibox
-keybase-in-social: True
-keybase-in-footer: True
+# keybase-username: tonymaibox
+# keybase-in-social: True
+# keybase-in-footer: True
 
 ################################################################################
 
