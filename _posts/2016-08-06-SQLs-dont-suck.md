@@ -3,6 +3,11 @@ layout: post
 title: Not all SQLs suck
 ---
 
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 Not Structured Query Language (SQL), anyway.
 
 For this post, I'll be writing about SQL, it's uses with data/databases, and why/how it doesn't have to be so darn challenging.

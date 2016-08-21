@@ -3,9 +3,15 @@ layout: post
 title: thought1 = Thought.new
 ---
 
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 Bear with me as I create or code a thought.
 
-<pre><code data-trim="" class="ruby">
+<pre><code data-trim class="ruby">
+
 class Thought
 
 @@owner = "Tony"
