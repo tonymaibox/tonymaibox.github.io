@@ -55,8 +55,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a catherdral. - Antoine de Saint-Exupery, The Little Prince"
+  - text: "Use your mind to build dreams. Use everything else as tools to make those dreams a reality."
 
 me-img: "/img/code_brackets.png"
 
