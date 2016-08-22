@@ -5,6 +5,7 @@ title: Crouching Tiger, Hidden 'Params'
 category: tech
 tags: [ 'tutorial' ]
 ---
+<img align="center" src="https://s-media-cache-ak0.pinimg.com/736x/fb/fd/01/fbfd0190689ae2b000da617d67ac2f75.jpg" alt="...">
 
 Well, maybe they're not so hidden.
 
