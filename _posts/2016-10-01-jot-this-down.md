@@ -92,6 +92,7 @@ This all seems simple enough to understand. If you want to see or create a Ruby 
 ### Now what?
 
 Simple enough? Actually, it is, which does make me question its security. These JWTs could be included in HTTP headers or URLs for users to access. While we should be making such links single or one-time use only, JWTs aren't totally immune to hijacking or attackers. A couple of things to consider:
+
 1. **Decision between localStorage or sessionStorage**
   * The JWT token lives on the browser's local storage. As a web app developer, we have to decide on user experience versus user security. It's a delicate balance. user experience could be bolstered if a user just has to sign onto an app, like a mobile one, just once. But for security's sake, it might be better if they needed to sign on everytime they're trying to access the web server. A browser's localStorage is persistent, but it's sessionStorage is not. "sessionStorage" clears upon closing of the browser. This has become the suggested method of storing the JWT. But it's a consideration to ponder.
 2. **Depending on how you view the above bullet point, set expirations**
