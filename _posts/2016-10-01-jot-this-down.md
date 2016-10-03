@@ -5,6 +5,8 @@ title: JWT this down...
 category: tech
 tags: [ 'tech' ]
 ---
+<img align="center" src="https://s-media-cache-ak0.pinimg.com/originals/d2/c2/44/d2c244b4c345c7435835b6de9e1fdc6b.jpg" alt="...">
+
 JSON Web Tokens (JWT) are great, but not as great as [_insert other web application security platform for transfering information_].
 
 Okay, so I didn't exactly tell you something you didn't know already: "There is no security in this life, only opportunity," as said by U.S. Army General Douglas MacArthur.
@@ -99,6 +101,9 @@ Simple enough? Actually, it is, which does make me question its security. These 
   + You can add an additional reserved "claim" to the payload. "exp" uses Unix time to set token expiration.
 3. **Key IDs or "kid" rather than Algorithm or "alg"**
   + Key IDs are a way of adding an extra layer of authentication for this authentication method. In substitution of the "alg" indicator in the header, using "kid" which stores the algorithm information privately on the sides of client and server makes it less convenient for backwards-deconstruction of a JWT token attack. 
+4. **Other concerns that I'll be looking into and so should anyone interested in furthering safeguarding authentication with JWTs:**
+  + [Cross Site Scripting (XSS)](https://www.owasp.org/index.php/XSS) - script injection onto webpage...
+  + [Cross Site Request Forgery (CRSF)](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)) - "riding" onto/along someone else's authenticated access...
 
 That's all from me for now. These are a few things I'm working on and considering for my next project.
 
