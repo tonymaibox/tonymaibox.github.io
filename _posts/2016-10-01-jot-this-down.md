@@ -5,7 +5,7 @@ title: JWT this down...
 category: tech
 tags: [ 'tech' ]
 ---
-<img align="center" src="https://github.com/tonymaibox/tonymaibox.github.io/tree/master/img/rsz_1meme_-_security_level_maximum.jpg" alt="...">
+<img align="center" src="https://github.com/tonymaibox/tonymaibox.github.io/blob/master/img/rsz_1meme_-_security_level_maximum.jpg?raw=true" alt="...">
 
 JSON Web Tokens (JWT) are great, but not as great as [_insert other web application security platform for transfering information_].
 
